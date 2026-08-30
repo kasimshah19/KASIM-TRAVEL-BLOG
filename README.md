@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1488646953014-c8bfb191ab64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Travel Blog Banner" width="100%" style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"/>
+  <img src="https://img.icons8.com/color/256/around-the-globe.png" alt="Travel Blog Logo" width="180" height="180" />
 
   <br />
   <br />
