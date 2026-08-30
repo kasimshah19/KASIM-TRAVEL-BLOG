@@ -4,8 +4,8 @@
   <br />
   <br />
 
-  <h1>🌍 Kasim's AI-Powered Travel Blog</h1>
-  <p><strong>A Next-Generation Travel Application built with Next.js 15, React 19, and Google Gemini AI.</strong></p>
+  <h1>🌍 Kasim's Travel Blog</h1>
+  <p><strong>A Next-Generation Travel Application built with Next.js 15, React 19, and Modern Web Animations.</strong></p>
 
   <!-- Badges -->
   <p>
@@ -15,7 +15,6 @@
     <img src="https://img.shields.io/badge/Next.js-15.4-black?style=for-the-badge&logo=next.js" alt="Next.js" />
     <img src="https://img.shields.io/badge/React-19.2-blue?style=for-the-badge&logo=react" alt="React" />
     <img src="https://img.shields.io/badge/Tailwind_CSS-4.1-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/Gemini_AI-Enabled-EA4335?style=for-the-badge&logo=google" alt="Gemini AI" />
     <img src="https://img.shields.io/badge/GSAP-Animations-88CE02?style=for-the-badge&logo=greensock" alt="GSAP Animations" />
   </p>
 </div>
@@ -24,9 +23,9 @@
 
 ## 🚀 Overview
 
-Welcome to **Kasim's Travel Blog**, an immersive, AI-driven exploration platform. This web application transforms the standard travel blogging experience into an interactive journey. By seamlessly integrating **Google Gemini AI**, the application provides contextual, intelligent features alongside buttery-smooth animations crafted with **GSAP** and **Framer Motion**. 
+Welcome to **Kasim's Travel Blog**, an immersive and engaging web platform. This application transforms the standard travel blogging experience into an interactive journey. By focusing on exceptional user experience, the application provides dynamic content alongside buttery-smooth animations crafted with **GSAP** and **Framer Motion**. 
 
-Designed with a recruiter-friendly standard, this project demonstrates a deep understanding of modern React patterns (React 19), Server-Side Rendering (Next.js core principles), robust styling (Tailwind CSS), and external AI API integrations.
+Designed with a recruiter-friendly standard, this project demonstrates a deep understanding of modern React patterns (React 19), Server-Side Rendering (Next.js core principles), and robust styling architecture (Tailwind CSS 4.x).
 
 🔗 **[View Live Project](https://kasim-travel-blog.vercel.app)** 
 
@@ -34,10 +33,10 @@ Designed with a recruiter-friendly standard, this project demonstrates a deep un
 
 ## ✨ Key Features
 
-- **🤖 AI-Integrated Content:** Powered by `Google Gemini (@google/genai)`, delivering dynamic and intelligent travel insights.
+- **🗺️ Intelligent Routing:** Efficient page transitions, dynamic layouts, and static optimization using the Next.js App Router.
 - **⚡ Next.js 15 Architecture:** Leveraging the latest Next.js patterns for lightning-fast server-side rendering and optimal SEO.
-- **🎨 Cinematic Animations:** Liquid-smooth UI transitions using `GSAP` and `Framer Motion` to engage users.
-- **💎 Modern Tailwind Typography:** Fluid and responsive design utilizing `Tailwind CSS 4.x` and the official typography plugin.
+- **🎨 Cinematic Animations:** Liquid-smooth UI transitions and interactive elements using `GSAP` and `Framer Motion` to engage users.
+- **💎 Modern Tailwind Typography:** Fluid and responsive design utilizing `Tailwind CSS 4.x` and custom design systems.
 - **📱 Fully Responsive Design:** Pixel-perfect adaptability across Mobile, Tablet, and Desktop displays.
 - **🛡️ Top-Tier Libraries:** Built with industry-standard React ecosystems (`Lucide React`, `clsx`, `tailwind-merge`).
 
@@ -50,7 +49,6 @@ Designed with a recruiter-friendly standard, this project demonstrates a deep un
 | **Core Framework** | [Next.js (v15.4)](https://nextjs.org/) |
 | **Frontend Library** | [React (v19.2)](https://react.dev/) |
 | **Styling Engine** | [Tailwind CSS (v4.1)](https://tailwindcss.com/) |
-| **AI Integration** | [Google Gemini AI API](https://ai.google.dev/) |
 | **Animations** | [GSAP](https://gsap.com/) & [Framer Motion](https://www.framer.com/motion/) |
 | **Icons & Utility** | [Lucide React](https://lucide.dev/), `clsx`, `tailwind-merge` |
 | **Deployment** | [Vercel](https://vercel.com/) |
@@ -59,11 +57,10 @@ Designed with a recruiter-friendly standard, this project demonstrates a deep un
 
 ## ⚙️ Environment Variables
 
-To run this project locally, you will need to add the following environment variables to your `.env` or `.env.local` file:
+To run this project locally, you will need to set up the following environment variable in your `.env` or `.env.local` file:
 
 | Variable | Description |
 | :--- | :--- |
-| `GEMINI_API_KEY` | Required to fetch AI-driven content & features via Google GenAI. |
 | `APP_URL` | The localhost URL or deployed production URL (e.g., `http://localhost:3000`). |
 
 ---
@@ -87,14 +84,7 @@ Follow these instructions to set up the project on your local machine:
    npm install
    ```
 
-4. **Set up Environment Variables:**
-   Copy the example file and input your Gemini API credentials.
-   ```bash
-   cp .env.example .env.local
-   ```
-   *Edit `.env.local` to include your `GEMINI_API_KEY`.*
-
-5. **Start the Next.js development server:**
+4. **Start the Next.js development server:**
    ```bash
    npm run dev
    ```
@@ -110,7 +100,7 @@ Follow these instructions to set up the project on your local machine:
  ┣ 📂 components            # Reusable React UI Components
  ┣ 📂 data                  # Static/Mock configurations
  ┣ 📂 hooks                 # Custom React Hooks
- ┣ 📂 lib                   # Utility configurations & helpers (Utils, AI Clients)
+ ┣ 📂 lib                   # Utility configurations & helpers
  ┣ 📂 assets                # Images, Videos, and Static Assets
  ┗ 📜 package.json          # Dependency & Script Management
 ```
