@@ -27,7 +27,17 @@ Welcome to **Kasim's Travel Blog**, an immersive and engaging web platform. This
 
 Designed with a recruiter-friendly standard, this project demonstrates a deep understanding of modern React patterns (React 19), Server-Side Rendering (Next.js core principles), and robust styling architecture (Tailwind CSS 4.x).
 
-🔗 **[View Live Project](https://kasim-travel-blog.vercel.app)** 
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <h2>
+          👉 <a href="https://kasim-travel-blog.vercel.app" target="_blank"><strong>Click Here to View Live Project</strong></a> 👈
+        </h2>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
