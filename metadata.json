@@ -1,0 +1,6 @@
+{
+  "name": "KASIM TRAVEL BLOG",
+  "description": "A modern and stylish travel blog featuring destinations and stories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
